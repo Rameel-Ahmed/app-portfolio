@@ -26,7 +26,7 @@ st.header("My Projects")
 
 # Loop through projects in pairs of 2
 for i in range(0, len(df), 2):
-    col1, col2 = st.columns(2)
+    col1,middle_col, col2 = st.columns([1.5,0.5,1.5])
     
     # First project in this row
     with col1:
